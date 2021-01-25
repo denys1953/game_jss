@@ -1,0 +1,41 @@
+#blue {
+   background-color:blue;
+   height: 50vh;
+   text-align: center;
+   position: relative;
+}
+#red {
+   background-color:red;
+   text-align: center;
+   height: 50vh;
+   position: relative;
+}
+#pred {
+   padding: 10px;
+   border-radius: 5px;
+   position: absolute;
+   top: 40%;
+   border: none;
+   left: 50%;
+   width: 150px;
+   font-size: 20px;
+   background-color: white;
+   user-select: none;
+   transform: translate(-50%, -50%) rotate(180deg);
+}
+#pblue {
+   padding: 10px;
+   border-radius: 5px;
+   position: absolute;
+   top: 60%;
+   border: none;
+   left: 50%;
+   width: 150px;
+   font-size: 20px;
+   background-color: white;
+   user-select: none;
+   transform: translate(-50%, -50%);
+}
+#pred:focus{
+   border: none;
+}
